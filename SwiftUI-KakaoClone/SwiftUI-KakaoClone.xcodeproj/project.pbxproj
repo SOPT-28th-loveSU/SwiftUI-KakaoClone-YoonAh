@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		ED2FEF832654B7D40063A157 /* SwiftUI_KakaoCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEF822654B7D40063A157 /* SwiftUI_KakaoCloneApp.swift */; };
-		ED2FEF852654B7D40063A157 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEF842654B7D40063A157 /* ContentView.swift */; };
 		ED2FEF872654B7D40063A157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2FEF862654B7D40063A157 /* Assets.xcassets */; };
 		ED2FEF8A2654B7D40063A157 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2FEF892654B7D40063A157 /* Preview Assets.xcassets */; };
+		ED2FEF9A26550CE20063A157 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEF9926550CE20063A157 /* LoginView.swift */; };
+		ED2FEF9D26550E620063A157 /* KakaoBoldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEF9C26550E620063A157 /* KakaoBoldText.swift */; };
+		ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEFA02655117B0063A157 /* LoginTextField.swift */; };
+		ED2FEFA326551E780063A157 /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEFA226551E780063A157 /* LoginButtonStyle.swift */; };
+		ED2FEFA5265530BA0063A157 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEFA4265530BA0063A157 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED2FEF7F2654B7D40063A157 /* SwiftUI-KakaoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-KakaoClone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2FEF822654B7D40063A157 /* SwiftUI_KakaoCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_KakaoCloneApp.swift; sourceTree = "<group>"; };
-		ED2FEF842654B7D40063A157 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED2FEF862654B7D40063A157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2FEF892654B7D40063A157 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED2FEF8B2654B7D40063A157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2FEF9926550CE20063A157 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ED2FEF9C26550E620063A157 /* KakaoBoldText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoBoldText.swift; sourceTree = "<group>"; };
+		ED2FEFA02655117B0063A157 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		ED2FEFA226551E780063A157 /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
+		ED2FEFA4265530BA0063A157 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +114,8 @@
 		ED2FEF9526550B1D0063A157 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				ED2FEF842654B7D40063A157 /* ContentView.swift */,
+				ED2FEF9926550CE20063A157 /* LoginView.swift */,
+				ED2FEFA4265530BA0063A157 /* RegisterView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -114,6 +123,9 @@
 		ED2FEF9626550B230063A157 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				ED2FEF9F265511620063A157 /* Button */,
+				ED2FEF9E2655115D0063A157 /* TextField */,
+				ED2FEF9B26550E430063A157 /* Text */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -123,6 +135,30 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ED2FEF9B26550E430063A157 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				ED2FEF9C26550E620063A157 /* KakaoBoldText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		ED2FEF9E2655115D0063A157 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				ED2FEFA02655117B0063A157 /* LoginTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		ED2FEF9F265511620063A157 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				ED2FEFA226551E780063A157 /* LoginButtonStyle.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2FEF852654B7D40063A157 /* ContentView.swift in Sources */,
+				ED2FEF9A26550CE20063A157 /* LoginView.swift in Sources */,
+				ED2FEFA326551E780063A157 /* LoginButtonStyle.swift in Sources */,
 				ED2FEF832654B7D40063A157 /* SwiftUI_KakaoCloneApp.swift in Sources */,
+				ED2FEFA5265530BA0063A157 /* RegisterView.swift in Sources */,
+				ED2FEF9D26550E620063A157 /* KakaoBoldText.swift in Sources */,
+				ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-KakaoClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-KakaoClone/Resource/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-KakaoClone/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,7 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-KakaoClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-KakaoClone/Resource/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-KakaoClone/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
