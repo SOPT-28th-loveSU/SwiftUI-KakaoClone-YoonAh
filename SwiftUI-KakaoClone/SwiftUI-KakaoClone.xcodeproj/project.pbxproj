@@ -15,6 +15,10 @@
 		ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEFA02655117B0063A157 /* LoginTextField.swift */; };
 		ED2FEFA326551E780063A157 /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEFA226551E780063A157 /* LoginButtonStyle.swift */; };
 		ED2FEFA5265530BA0063A157 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEFA4265530BA0063A157 /* RegisterView.swift */; };
+		ED4C8A97265FC6750037C523 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A96265FC6750037C523 /* FriendListView.swift */; };
+		ED4C8A9A265FCA380037C523 /* FriendHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A99265FCA380037C523 /* FriendHeader.swift */; };
+		ED4C8A9D265FCBA50037C523 /* MyFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */; };
+		ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A9F265FD39A0037C523 /* KakaoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		ED2FEFA02655117B0063A157 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		ED2FEFA226551E780063A157 /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
 		ED2FEFA4265530BA0063A157 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		ED4C8A96265FC6750037C523 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
+		ED4C8A99265FCA380037C523 /* FriendHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendHeader.swift; sourceTree = "<group>"; };
+		ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendCell.swift; sourceTree = "<group>"; };
+		ED4C8A9F265FD39A0037C523 /* KakaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				ED2FEF9626550B230063A157 /* Components */,
+				ED4C8A9B265FCB4B0037C523 /* Cells */,
 				ED2FEF9526550B1D0063A157 /* Screens */,
 			);
 			path = Views;
@@ -116,6 +125,8 @@
 			children = (
 				ED2FEF9926550CE20063A157 /* LoginView.swift */,
 				ED2FEFA4265530BA0063A157 /* RegisterView.swift */,
+				ED4C8A9F265FD39A0037C523 /* KakaoView.swift */,
+				ED4C8A96265FC6750037C523 /* FriendListView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -123,6 +134,7 @@
 		ED2FEF9626550B230063A157 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				ED4C8A98265FCA2A0037C523 /* Header */,
 				ED2FEF9F265511620063A157 /* Button */,
 				ED2FEF9E2655115D0063A157 /* TextField */,
 				ED2FEF9B26550E430063A157 /* Text */,
@@ -159,6 +171,22 @@
 				ED2FEFA226551E780063A157 /* LoginButtonStyle.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		ED4C8A98265FCA2A0037C523 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				ED4C8A99265FCA380037C523 /* FriendHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		ED4C8A9B265FCB4B0037C523 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +260,13 @@
 			files = (
 				ED2FEF9A26550CE20063A157 /* LoginView.swift in Sources */,
 				ED2FEFA326551E780063A157 /* LoginButtonStyle.swift in Sources */,
+				ED4C8A9D265FCBA50037C523 /* MyFriendCell.swift in Sources */,
 				ED2FEF832654B7D40063A157 /* SwiftUI_KakaoCloneApp.swift in Sources */,
+				ED4C8A97265FC6750037C523 /* FriendListView.swift in Sources */,
 				ED2FEFA5265530BA0063A157 /* RegisterView.swift in Sources */,
 				ED2FEF9D26550E620063A157 /* KakaoBoldText.swift in Sources */,
+				ED4C8A9A265FCA380037C523 /* FriendHeader.swift in Sources */,
+				ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */,
 				ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

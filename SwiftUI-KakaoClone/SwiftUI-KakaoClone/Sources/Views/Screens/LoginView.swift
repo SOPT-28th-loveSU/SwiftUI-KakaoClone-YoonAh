@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State var presentingModal = false
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -28,12 +30,16 @@ struct LoginView: View {
                     .padding(.bottom, 30)
                 
                 Button(action: {
-                    print("button clicked!")
+                    self.presentingModal = true
                 }) {
                     Text("카카오계정 로그인")
                 }
                     .buttonStyle(LoginButtonStyle())
                     .padding(.bottom, 3)
+                    .fullScreenCover(isPresented: $presentingModal, content: {
+                        KakaoView()
+                    })
+                
                 NavigationLink(
                     destination: RegisterView()) {
                     Text("새로운 카카오계정 만들기")

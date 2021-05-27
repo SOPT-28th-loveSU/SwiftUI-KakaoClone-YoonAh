@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct RegisterView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         VStack {
             Text("카카오톡을 시작합니다")
@@ -25,7 +27,7 @@ struct RegisterView: View {
                 .padding(.bottom, 30)
         
             Button(action: {
-                print("button clicked!")
+                print("얍얍")
             }) {
                 Text("새로운 카카오계정 만들기")
             }.buttonStyle(LoginButtonStyle())
