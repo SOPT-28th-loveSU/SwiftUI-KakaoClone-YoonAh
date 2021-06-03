@@ -16,7 +16,7 @@ struct MyFriendCell: View {
     var body: some View {
         HStack {
             Image(image)
-                .padding(.trailing, 5)
+                .padding(.trailing, 1)
             
             VStack(alignment: .leading) {
                 if isFriend {

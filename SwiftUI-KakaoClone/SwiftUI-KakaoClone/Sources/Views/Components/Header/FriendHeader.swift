@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct FriendHeader: View {
+    var title: String
+    
     var body: some View {
         HStack {
-            Text("친구")
+            Text(title)
                 .font(.system(size: 25,
                               weight: .semibold,
                               design: .default))
@@ -30,6 +32,6 @@ struct FriendHeader: View {
 
 struct FriendHeader_Previews: PreviewProvider {
     static var previews: some View {
-        FriendHeader()
+        FriendHeader(title: "친구")
     }
 }

@@ -12,7 +12,7 @@ struct FriendListView: View {
         VStack {
             Spacer()
                 .frame(height: 12)
-            FriendHeader()
+            FriendHeader(title: "친구")
             .padding(.horizontal, 15)
             
             List {

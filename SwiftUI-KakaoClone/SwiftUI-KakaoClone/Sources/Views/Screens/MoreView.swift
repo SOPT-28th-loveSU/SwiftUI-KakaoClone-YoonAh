@@ -9,14 +9,21 @@ import SwiftUI
 
 struct MoreView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Spacer()
                 .frame(height: 12)
-            FriendHeader()
-            .padding(.horizontal, 15)
+            FriendHeader(title: "더보기")
             
+            MyFriendCell(isFriend: true, image:"friendtabProfileImg", name:"최솝트", statusMessage: "apple@sopt.org")
+                .padding(.bottom, 10)
+                .padding(.top, 20)
             
+            Divider()
+                .padding(.bottom, 30)
+            
+            VGridView()
         }
+        .padding(.horizontal, 15)
     }
 }
 

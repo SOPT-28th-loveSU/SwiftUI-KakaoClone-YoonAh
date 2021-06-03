@@ -21,6 +21,8 @@
 		ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A9F265FD39A0037C523 /* KakaoView.swift */; };
 		EDBD0B442668784D00875CAE /* Extension+UITabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B432668784D00875CAE /* Extension+UITabbar.swift */; };
 		EDBD0B4626687BBC00875CAE /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B4526687BBC00875CAE /* MoreView.swift */; };
+		EDBD0B482668899600875CAE /* MoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B472668899600875CAE /* MoreCell.swift */; };
+		EDBD0B4A2668B6D400875CAE /* VGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B492668B6D400875CAE /* VGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		ED4C8A9F265FD39A0037C523 /* KakaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoView.swift; sourceTree = "<group>"; };
 		EDBD0B432668784D00875CAE /* Extension+UITabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITabbar.swift"; sourceTree = "<group>"; };
 		EDBD0B4526687BBC00875CAE /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		EDBD0B472668899600875CAE /* MoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCell.swift; sourceTree = "<group>"; };
+		EDBD0B492668B6D400875CAE /* VGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				ED4C8A9F265FD39A0037C523 /* KakaoView.swift */,
 				ED4C8A96265FC6750037C523 /* FriendListView.swift */,
 				EDBD0B4526687BBC00875CAE /* MoreView.swift */,
+				EDBD0B492668B6D400875CAE /* VGridView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */,
+				EDBD0B472668899600875CAE /* MoreCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -279,11 +285,13 @@
 				ED4C8A97265FC6750037C523 /* FriendListView.swift in Sources */,
 				ED2FEFA5265530BA0063A157 /* RegisterView.swift in Sources */,
 				ED2FEF9D26550E620063A157 /* KakaoBoldText.swift in Sources */,
+				EDBD0B482668899600875CAE /* MoreCell.swift in Sources */,
 				EDBD0B4626687BBC00875CAE /* MoreView.swift in Sources */,
 				ED4C8A9A265FCA380037C523 /* FriendHeader.swift in Sources */,
 				ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */,
 				ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */,
 				EDBD0B442668784D00875CAE /* Extension+UITabbar.swift in Sources */,
+				EDBD0B4A2668B6D400875CAE /* VGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
