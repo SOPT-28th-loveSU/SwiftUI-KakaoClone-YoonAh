@@ -19,6 +19,8 @@
 		ED4C8A9A265FCA380037C523 /* FriendHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A99265FCA380037C523 /* FriendHeader.swift */; };
 		ED4C8A9D265FCBA50037C523 /* MyFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */; };
 		ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C8A9F265FD39A0037C523 /* KakaoView.swift */; };
+		EDBD0B442668784D00875CAE /* Extension+UITabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B432668784D00875CAE /* Extension+UITabbar.swift */; };
+		EDBD0B4626687BBC00875CAE /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B4526687BBC00875CAE /* MoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		ED4C8A99265FCA380037C523 /* FriendHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendHeader.swift; sourceTree = "<group>"; };
 		ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendCell.swift; sourceTree = "<group>"; };
 		ED4C8A9F265FD39A0037C523 /* KakaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoView.swift; sourceTree = "<group>"; };
+		EDBD0B432668784D00875CAE /* Extension+UITabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITabbar.swift"; sourceTree = "<group>"; };
+		EDBD0B4526687BBC00875CAE /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		ED2FEF922654B7FF0063A157 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EDBD0B422668783A00875CAE /* Extensions */,
 				ED2FEF9826550B430063A157 /* Models */,
 				ED2FEF942654B8200063A157 /* Views */,
 				ED2FEF932654B8110063A157 /* Supports */,
@@ -127,6 +132,7 @@
 				ED2FEFA4265530BA0063A157 /* RegisterView.swift */,
 				ED4C8A9F265FD39A0037C523 /* KakaoView.swift */,
 				ED4C8A96265FC6750037C523 /* FriendListView.swift */,
+				EDBD0B4526687BBC00875CAE /* MoreView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -187,6 +193,14 @@
 				ED4C8A9C265FCBA50037C523 /* MyFriendCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		EDBD0B422668783A00875CAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD0B432668784D00875CAE /* Extension+UITabbar.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +279,11 @@
 				ED4C8A97265FC6750037C523 /* FriendListView.swift in Sources */,
 				ED2FEFA5265530BA0063A157 /* RegisterView.swift in Sources */,
 				ED2FEF9D26550E620063A157 /* KakaoBoldText.swift in Sources */,
+				EDBD0B4626687BBC00875CAE /* MoreView.swift in Sources */,
 				ED4C8A9A265FCA380037C523 /* FriendHeader.swift in Sources */,
 				ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */,
 				ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */,
+				EDBD0B442668784D00875CAE /* Extension+UITabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

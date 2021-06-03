@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct KakaoView: View {
     @State var selection: Int = 0
+    
+    init() {
+        UITabBar.appearance().barTintColor = UIColor.systemGray6
+        UITabBar.clearShadow()
+    }
     
     var body: some View {
         TabView(selection: $selection) {
@@ -21,8 +27,47 @@ struct KakaoView: View {
                 }
             }
             .tag(0)
+            
+            FriendListView()
+            .tabItem {
+                if selection == 1 {
+                    Image("messageTabIconSelected")
+                } else {
+                    Image("messageTabIcon")
+                }
+            }
+            .tag(1)
+            
+            FriendListView()
+            .tabItem {
+                if selection == 2 {
+                    Image("searchTabIconSelected")
+                } else {
+                    Image("searchTabIcon")
+                }
+            }
+            .tag(2)
+            
+            FriendListView()
+            .tabItem {
+                if selection == 3 {
+                    Image("shopTabIconSelected")
+                } else {
+                    Image("shopTabIcon")
+                }
+            }
+            .tag(3)
+            
+            MoreView()
+            .tabItem {
+                if selection == 4 {
+                    Image("detailTabIconSelected")
+                } else {
+                    Image("detailTabIcon")
+                }
+            }
+            .tag(4)
         }
-        
     }
 }
 
