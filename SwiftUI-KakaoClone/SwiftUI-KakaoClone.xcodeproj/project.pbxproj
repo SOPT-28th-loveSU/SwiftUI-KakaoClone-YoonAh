@@ -25,6 +25,7 @@
 		EDBD0B4626687BBC00875CAE /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B4526687BBC00875CAE /* MoreView.swift */; };
 		EDBD0B482668899600875CAE /* MoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B472668899600875CAE /* MoreCell.swift */; };
 		EDBD0B4A2668B6D400875CAE /* VGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBD0B492668B6D400875CAE /* VGridView.swift */; };
+		EDC1AD122678F4350015CE79 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1AD112678F4350015CE79 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		EDBD0B4526687BBC00875CAE /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		EDBD0B472668899600875CAE /* MoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreCell.swift; sourceTree = "<group>"; };
 		EDBD0B492668B6D400875CAE /* VGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridView.swift; sourceTree = "<group>"; };
+		EDC1AD112678F4350015CE79 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				EDBD0B492668B6D400875CAE /* VGridView.swift */,
 				ED89B3592670E9A700BD89DB /* ProfileView.swift */,
 				EDA07197267648C60038A2B7 /* MenuStack.swift */,
+				EDC1AD112678F4350015CE79 /* ChatView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				EDBD0B482668899600875CAE /* MoreCell.swift in Sources */,
 				EDBD0B4626687BBC00875CAE /* MoreView.swift in Sources */,
 				ED4C8A9A265FCA380037C523 /* FriendHeader.swift in Sources */,
+				EDC1AD122678F4350015CE79 /* ChatView.swift in Sources */,
 				ED4C8AA0265FD39A0037C523 /* KakaoView.swift in Sources */,
 				ED2FEFA12655117B0063A157 /* LoginTextField.swift in Sources */,
 				EDBD0B442668784D00875CAE /* Extension+UITabbar.swift in Sources */,
