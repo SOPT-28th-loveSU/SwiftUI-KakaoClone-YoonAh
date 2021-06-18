@@ -13,7 +13,10 @@ struct ChatView: View {
     let chat: String
     
     var body: some View {
-        Text(chat)
+        List {
+            Text(chat)
+        }
+        
     }
 }
 
